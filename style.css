@@ -172,6 +172,10 @@ body {
    .contacto{
     margin-top: 0;
    }
+   .mascotas {
+     grid-template-columns: repeat(1, 1fr);
+     margin-left: 0;
+   }
 }
 @media (min-width: 601px) and (max-width: 900px)  {
     .Perfil, .sobremi, .contacto {
@@ -181,5 +185,8 @@ body {
     .información {
     margin-top: -300px;
     margin-left: -30px;
+   }
+   .mascotas {
+    grid-template-columns: repeat(1, 1fr);
    }
 }
